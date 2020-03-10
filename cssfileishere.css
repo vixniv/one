@@ -70,7 +70,7 @@ a:hover {
 
 img.pp{
     border-radius: 50%;
-    width: 50px;
+    max-width: 20%;
 }
 
 p.footer {
