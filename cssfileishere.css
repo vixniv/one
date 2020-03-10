@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "sfreg";
+    src: url(font\SFPro-Regular.ttf) format("truetype"), local("SF Pro Display Regular");
+}
+
+@font-face {
+    font-family: "sfsemibold";
+    src: url(font\SF-Semibold.otf) format("opentype"), local("SF Pro Display Semibold");
+}
+
+@font-face {
+    font-family: "sfbold";
+    src: url(font\SF-Bold.otf) format("opentype"), local("SF Pro Display Bold");
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "sfreg";
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+h1.header{
+    font-family: "sfsemibold";
+    padding-top: 12px;
+}
+
+p.sub {
+    padding-top: 12px;
+}
+
+.semi {
+    font-family: "sfsemibold";
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 8px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+a.semi:hover {
+    padding-bottom: 1px;
+    border-style: none none solid;
+    border-width: 2px;
+    border-color: #000;
+    color: black;
+}
+
+.subemail {
+    padding-top: 12px;
+}
+a.email {
+    font-family: "sfsemibold";
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    
+}
+
+a:hover {
+    padding-bottom: 5px;
+    border-bottom-color: transparent;
+    
+}
+
+img.pp{
+    border-radius: 50%;
+    width: 50px;
+}
+
+p.footer {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
