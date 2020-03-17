@@ -16,11 +16,23 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: "sfreg";
+  }
+
+.container {
     max-width: 700px;
     margin: auto;
     margin-top: 50px;
     padding: 20px;
-  }
+}
+
+marquee{
+    margin: 0;
+    font-family: "sfreg";
+    font-size: 14px;
+    color: #000000;
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+}
 
 h1.header{
     font-family: "sfsemibold";
