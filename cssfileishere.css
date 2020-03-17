@@ -15,7 +15,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: "sfreg";
+    font-family: "sfreg", sans-serif;
   }
 
 .container {
@@ -35,7 +35,7 @@ marquee{
 }
 
 h1.header{
-    font-family: "sfsemibold";
+    font-family: "sfsemibold", sans-serif;
     padding-top: 12px;
     font-size:36px;
 }
@@ -46,7 +46,7 @@ p.sub {
 }
 
 .semi {
-    font-family: "sfsemibold";
+    font-family: "sfsemibold", sans-serif;
     color: rgb(102, 102, 102);
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -69,7 +69,7 @@ a.semi:hover {
 }
 
 a.email {
-    font-family: "sfsemibold";
+    font-family: "sfsemibold", sans-serif;
     color: black;
     text-decoration: none;
     border-bottom: 2px solid black;
