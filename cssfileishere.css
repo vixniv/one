@@ -25,12 +25,12 @@ body {
 h1.header{
     font-family: "sfsemibold";
     padding-top: 12px;
-    font-size:59px;
+    font-size:36px;
 }
 
 p.sub {
     padding-top: 12px;
-    font-size:25px;
+    font-size:19px;
 }
 
 .semi {
@@ -53,7 +53,7 @@ a.semi:hover {
 
 .subemail {
     padding-top: 12px;
-    font-size:25px;
+    font-size:19px;
 }
 
 a.email {
@@ -80,5 +80,23 @@ img.pp{
 p.footer {
     padding-top: 15px;
     padding-bottom: 8px;
-    font-size:25px;
+    font-size:19px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1.header{
+        font-size:49px;
+    }
+
+    p.sub {
+        font-size:19px;
+    }
+
+    .subemail {
+        font-size:19px;
+    }
+
+    p.footer {
+        font-size:19px;
+    }
 }
